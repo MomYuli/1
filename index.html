@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="Wrapper" >
+
+<!-- Contact section -->
+<section class="Contact-section">
+    <a href="" class="Telegram-icon" >
+        <img src="./img/icons/telegram-icon.svg" alt="Telegram-icon" >
+    </a>
+    <a href="" class="Viber-icon" >
+        <img src="./img/icons/viber-icon.svg" alt="Viber-link"  >
+    </a>
+    <a href="" class="Phone-link-icon" >
+        <img src="./img/icons/phone-icon.svg" alt="Phone-link-icon" >
+    </a>
+    <a href="tel:+380507500306" class="Phone-link-number" >
+        <span> +38 (050) 750-03-06 </span>
+    </a>
+
+
+</section>
+
+
+<!-- Main-information-section -->
+<section class="Main-information-section" >  
+
+    <!-- My photo section -->
+        <img class="My-photo" src="./img/photo.png" alt="">
+        
+    <!-- Social network section -->
+        <div>
+            <a href="" class="social-link" ><img src="./img/icons/linkedin-icon.svg" alt="My linked link" class="icon linkedin-icon" ></a>
+            <a href="" class="social-link" ><img src="./img/icons/fb-icon.svg" alt="My facebook link" class="icon" ></a>
+        </div>
+
+    <!-- Experiense section -->
+        <div class="Experiense-diskription" >   
+            <p class="Experiense-discription-text" >32 готових проекти</p>
+            <p>2 роки досвіду</p>
+        </div>
+
+    <!-- Tekchnology section -->
+        <div class="Tekchnology">
+        <img src="./img/icons/js-icon.svg"  alt="" class="icon js-icon"  >
+        <img src="./img/icons/react-icon.svg"  alt="" class="icon react-icon" >
+        <img src="./img/icons/nodejs-icon.svg"  alt="" class="icon" >
+        </div>
+
+    <!-- Projects section -->
+        <div>
+        <a class="My-projects-link" href="https://github.com/"> 
+        <span class="My-project-link-title" > Мої роботи </span>
+        </a>
+        </div> 
+</section>
+
+<!-- About me-section -->
+<section class="About-me-section" >
+
+    <!-- My name section -->
+        <div class="My-name-section">
+            <h2>Вітаю! Я - Юлія Овсійчук</h2>
+        </div>
+
+     <!-- About me title -->
+        <div class="About-me-title">
+            <h1>Я створюю <br> сайти</h1>
+        </div>
+
+    <!-- My live and work section -->
+        <div class="My-live-and-work-section" >
+            <p class="My-live-and-work-style" > Живу у Харкові </p>
+            <p class="My-live-and-work-style" > Працюю віддалено </p>
+        </div>
+
+    <!-- My skills sections -->
+        <div>
+            <p class="My-skills-title"> Я - людина-оркестр. <br> Самостійно заміняю цілу веб-студію. </p>
+            <span class="My-skills-option" > Уміння: </span>
+            <ul class="My-skils-list">
+                <li class="My-skills-item"> <p class="My-skills-item-text" >Керувати IT-проектами та командами;</p> </li>
+                <li class="My-skills-item"> <p class="My-skills-item-text" >Senior Front End розробник;</p> </li>
+                <li class="My-skills-item"> <p class="My-skills-item-text" >Middle Back End розробник;</p> </li>
+                <li class="My-skills-item"> <p class="My-skills-item-text" >Можу проконтролювати якість свого або вашого проекта, як QA - спеціаліст.</p> </li>
+            </ul>
+        </div>
+</section>
+
+<!-- Project price section -->
+<section class="Project-price-section">
+
+    <form class="Project-price-form" method="POST" name="Розрахунок проекту" data-netlify="true" id="project-price-form" >
+    <h4 class="Project-price-title" >Розрахуй вартість проекту</h4>
+
+
+<!-- Project-price-section-title -->
+    <div class="Project-price-section-title" >
+        <label for="Project type" class="Project-price-form-field-title" >Тип сайту</label>
+        <select name="Project type" id="Project-type" class="Project-price-select">
+            <option selected value="Landing-Page">Landing Page</option>
+            <option value="Online-store">Online-Store</option>
+            <option value="Web-Application">Web-Application</option>
+            <option value="Mobile-Application">Mobile-Application</option>
+        </select>
+    </div>
+
+<!-- Activity-type-section -->
+    <div class="Activity-type-section" >
+        <p class="Project-price-form-field-title" >Типи робіт</p>
+        
+        <div class="Activity-type-item" >            
+            <input type="checkbox" name="Project-management" id="Project-management" class="Activity-type-checkbox" >
+            <label for="Project-management" class="Activity-type-title" >Project Management</label> 
+        </div>
+
+        <div class="Activity-type-item" >
+            <input type="checkbox" name="Design" id="Design" class="Activity-type-checkbox" >
+            <label for="Design" class="Activity-type-title"  >Design</label> 
+        </div>
+
+        <div class="Activity-type-item" >
+            <input type="checkbox" name="Developer" id="Developer" class="Activity-type-checkbox" >
+            <label for="Developer" class="Activity-type-title"  >Developer</label> 
+        </div>
+
+        <div class="Activity-type-item" >
+            <input type="checkbox" name="QA" id="QA" class="Activity-type-checkbox" >
+            <label for="QA" class="Activity-type-title"  >QA</label>
+        </div>
+    </div>
+
+<!-- Project type price section-->
+        <div class="Project-type-price-section" >
+            <p class="Project-price-form-field-title" >Вартість</p>
+            <p class="Project-price-form-field-sum">  <span class="Project-price-currency" > $ </span> <span id="totalPrice" >0</span> </p>
+        </div>
+
+<input type="hidden" name="Email">
+
+<!-- Project price calculete button section -->
+<div class="Project-price-calculete-button-section" >
+    <button class="Project-price-calculete-button" >Відправити запит</button>
+</div>
+</form>
+</section>
+</div>
+
+
+<!-- Modal window first -->
+<div class="Modal-background" id="modal-email" >
+<div class="Modal-container">
+<button type="button" class="Modal-close-btn">
+        <img src="./img/icons/close-icon.svg" alt="">
+</button>
+    <img src="./img/icons/mail_icon.svg" alt="Mail icon" class="Mail-icon">
+    <h4 class="Modal-title" >Я зв’яжуся з Вами <br> протягом найближчої <br> години</h4>
+<form action="#" class="Modal-conteiner-form" id="modal-email-container">
+<div class="email-input-container" id="email-input-container">
+    <label for="user-email" class="User-name-title">E-mail:</label>
+    <input type="email" name="user-email" id="user-email" class="user-email" placeholder="Вкажіть E-mail для відповіді">
+    <p class="email-error-text" >Перевірте написання e-mail  </p>
+</div>
+
+    <button type="submit" class="Modal-submit-button" > Відправити </button>
+</form>
+</div>
+</div>
+
+<!-- Modal window second --> 
+<div class="Modal-background" id="modal-success">
+    <div class="Modal-container modal-container-success">
+    <button type="button" class="Modal-close-btn">
+            <img src="./img/icons/close-icon.svg" alt="">
+    </button>
+        <img src="./img/icons/send_icon.svg" alt="Send icon" class="Send-icon" > 
+        <p class="Modal-send-message" >Вітаю! <br> Вашого листа успішно надіслано</p>
+    </div> 
+</div>
+
+
+
+<script src="./js/script.js" ></script>
+
+</body>
+</html>
